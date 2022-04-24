@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFF Log In</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
+</head>
+<body id="LogInBody">
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" id="LogIn" href="LogIn.html">Log In</a>
+    </div>
+
+    <h1 id="LogInHeader">FFF Log In</h1>
+
+    <div class="LogInBox">
+        <label for="uname" id="unamelabel"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" id="unameinput">
+
+        <label for="psw" id="pswlabel"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="pswinput">
+
+        <button onclick="LogIn()" type="submit" id="signupbtn">Log In</button>
+    </div>
+</body>
+</html>

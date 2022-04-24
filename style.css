@@ -1,0 +1,240 @@
+#IndexBody {
+    background-color: grey;
+}
+
+#SignUpBody {
+    background-color: grey;
+}
+
+#LogInBody {
+    background-color: grey;
+}
+
+#IndexHeader {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#SignUpHeader {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#LogInHeader {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #585858;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav a#SignUp {
+    float: right;
+}
+
+.topnav a#LogIn {
+    float: right;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+  /* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+  /* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+  /* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+  /* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+  /* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+  /* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+  /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+#unamelabel {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+#pswlabel {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+#signupbtn {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+#fffpanelbg {
+    background-color: grey;
+}
+
+#fffheader {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.topnav a#SecurePanelMenu {
+    width: auto;
+    float: right;
+}
+
+.Images img {
+    border: 2px solid;
+    width: 225px;
+    height: 225px;
+}
+
+.Images #LilGayX {
+    margin-right: 50px;
+}
+
+.Images {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#MostWantedH1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.Divider {
+    border: 2px solid;
+    margin-top: 25px;
+}
+
+#homeP {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#Gaybtn {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.CommentForm {
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+#CommentInput {
+    height: 75px;
+}
+
+#commentlabel {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#Submitbutton {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Divider2 {
+    border: 1px solid;
+}

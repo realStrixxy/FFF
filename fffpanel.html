@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFF Secure Panel</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
+</head>
+<body id="fffpanelbg" onload="LoadComments()">
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" id="SecurePanelMenu">SecurePanel</a>
+    </div>
+
+    <h1 id="fffheader">FFF Secure Panel</h1>
+    <hr class="Divider">
+    <h1 id="MostWantedH1">MOST WANTED</h1>
+    <div class="Images">
+        <img id="LilGayX" src="./Images/LilGayX.png" alt="Lil Nas X">
+        <img id="DavidMeza" src="./Images/DavidGayza.png" alt="David Meza">
+    </div>
+    <hr class="Divider">
+    <form class="CommentForm">
+        <label id="commentlabel" for="Comment">Comment</label>
+        <input type="text" id="CommentInput" name="comment">
+        <button id="Submitbutton" type="button" onclick="OnCommentSubmit()">Submit</button>
+    </form>
+    <hr class="Divider">
+    <div id="CommentDiv">
+
+    </div>
+    <hr class="Divider">
+</body>
+</html>
